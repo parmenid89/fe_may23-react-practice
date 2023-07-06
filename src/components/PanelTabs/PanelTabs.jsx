@@ -26,7 +26,7 @@ export const PanelTabs = ({ products, user, handleUser, pickAllUsers }) => {
         >
           {us}
         </a>
-      ))};
+      ))}
     </p>
   );
 };
