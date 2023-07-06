@@ -13,8 +13,8 @@ export const Product = ({ product }) => (
     <td
       data-cy="ProductUser"
       className={cn({
-        'has-text-link': product.user.sex === 'f',
-        'has-text-danger': product.user.sex === 'm',
+        'has-text-link': product.user.sex === 'm',
+        'has-text-danger': product.user.sex === 'f',
       })}
     >
       {product.user.name}
